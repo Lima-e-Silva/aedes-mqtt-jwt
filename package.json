@@ -1,0 +1,22 @@
+{
+  "name": "aedes-mqtt-jwt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --env-file=.env main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MQTT",
+    "Broker",
+    "JWT"
+  ],
+  "author": "Lima e Silva",
+  "license": "MIT",
+  "dependencies": {
+    "aedes": "^0.51.3",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
