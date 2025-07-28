@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node main.js",
     "dev": "node --env-file=.env main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "MQTT",
@@ -18,5 +18,10 @@
   "dependencies": {
     "aedes": "^0.51.3",
     "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "mqtt": "^5.13.3"
   }
 }
