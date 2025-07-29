@@ -1,7 +1,7 @@
 const mqtt = require("mqtt");
 const jwt = require("jsonwebtoken");
 const net = require("net");
-const broker = require("./broker");
+const broker = require("../broker");
 
 const JWT_SECRET = "66f823612b994d990d148683016eafa4";
 const PORT = 1884; // Different port than main app for testing
