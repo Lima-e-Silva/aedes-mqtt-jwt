@@ -31,7 +31,7 @@ function createBroker(options = {}) {
       callback(null, true);
     } catch (err) {
       console.error("Error authenticating client:", err.message);
-      callback(err, false);
+      return callback(new Error(err.message), false);
     }
     debug ? console.log(`Client ${client.id} authenticated!`) : null;
   };
